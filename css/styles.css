@@ -1,0 +1,49 @@
+:root{
+    --background-color:#FFFFFF;
+    --primary-color: #2E2F42;
+    --secondary-color:#434455;
+}
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+background-color: var(--background-color);
+list-style: none;
+}
+.navigation{
+font-weight: 600;
+font-size: 16px;
+line-height: 1,5;
+color: var(--primary-color);
+list-style: none;
+text-decoration: none;
+}
+.navigation-link{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1,3;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.accent{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1,3;
+    color: #4D5AE5;
+}
+.mail-link{
+    font-weight: 400;
+font-size: 16px;
+line-height: 1,5px;
+color: var(--secondary-color);
+text-decoration: none;
+}
+.primary>.primary-tittle:{
+    color: var(--background-color);
+    font-weight: 600;
+font-size: 56px;
+line-height: 1,07;
+}
