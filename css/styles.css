@@ -127,3 +127,19 @@ line-height: 1,5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
 }
+/* Portfolio */
+.list-btn>.btn{
+    color: #4D5AE5;
+    background: #F4F4FD;;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1,5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    
+}
+.list-btn>.btn:hover{
+    background: #4D5AE5;
+    color: var(--background-color);
+}
