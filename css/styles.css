@@ -80,10 +80,10 @@ letter-spacing: 0.02em;
 h2{
     color: var(--primary-color);
     font-weight: 600;
-font-size: 36px;
-line-height: 1,11;
-text-align: center;
-letter-spacing: 0.02em;
+    font-size: 36px;
+    line-height: 1,11;
+    /* text-align: center; */
+    letter-spacing: 0.02em;
 }
 .list h3{
     color: var(--primary-color);
@@ -128,7 +128,7 @@ letter-spacing: 0.02em;
 color: #E7E9FC;
 }
 /* Portfolio */
-.list-btn>.btn{
+.btn{
     color: #4D5AE5;
     background: #F4F4FD;;
     font-weight: 600;
@@ -139,7 +139,23 @@ color: #E7E9FC;
     cursor: pointer;
     
 }
-.list-btn>.btn:hover{
+.btn:hover, .btn:focus{
     background: #4D5AE5;
     color: var(--background-color);
+}
+.images-list>.list-tittle{
+    color: var(--primary-color);
+    font-weight: 600;
+font-size: 20px;
+line-height: 1,2;
+letter-spacing: 0.02em;
+
+}
+.list-text{
+    color: var(--secondary-color);
+    font-weight: 400;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+
 }
