@@ -164,8 +164,11 @@ color: #E7E9FC;
     font-family: inherit;
 }
 .btn:hover, .btn:focus{
-    background: #4D5AE5;
+    background:#434455;
     color: var(--background-color);
+}
+.btn:active{
+    background-color: var(--brand-color);
 }
 .list-header{
     color: var(--primary-color);
